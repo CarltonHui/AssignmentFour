@@ -35,8 +35,8 @@ print (fruitBasket [0])
 
 var evenNumbers = [2, 4, 6, 8, 10]
 
-for Int in evenNumbers{
-    print ("My favorite number " + Int)
+for integer in evenNumbers{
+    print ("My favorite number " + String(integer))
 }
 
 print(evenNumbers)
